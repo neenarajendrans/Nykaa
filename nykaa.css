@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.first-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(250, 90, 146);
+    padding: 15px;
+    font-weight: 550;
+    font-size: 20px;
+
+}
+.features{
+    display: flex;
+    
+
+}
+
+.features .app{
+    display: flex;
+    font-size: 17px;
+   
+}
+.features .app p{
+    cursor: pointer;
+    transition: color .5s;
+}
+.features .app p:hover{
+    color: rgb(120, 120, 119);
+}
+.features .app i{
+    margin-inline: 5px;
+    margin-left: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color .5s;
+}
+.features .app i:hover{
+    color: rgb(136, 135, 133);
+}
+
+.second-nav{
+    background-color: rgb(250, 218, 223);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    font-weight: 550;
+
+}
+
+.second-nav ul li img{
+    margin-inline: 22px; 
+    width: 8%;
+
+}
+.second-nav ul li a{
+    margin-inline: 22px;
+   transition: color .5s;
+   cursor: pointer;
+}
+.second-nav ul li a:hover{
+    color: rgb(243, 106, 128);
+}
+.second-nav .input{
+    display: flex;
+}
+
+.second-nav .input input{
+    width: 220px;
+    background-color: rgb(236, 232, 232);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px; 
+    
+}
+.second-nav .input button{
+    width: 80px;
+    height: 35px;
+    margin-inline: 22px;
+    background-color: rgba(254, 79, 137, 0.958);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 4s, 
+    color 1s;
+}
+.second-nav .input button:hover{
+    background-color: rgb(226, 19, 54);
+    color: rgb(15, 11, 11);
+
+
+}
+.item{
+    background-color: rgb(251, 230, 234);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    color: rgb(161, 133, 133);
+
+}
+.item ul li a{
+    list-style: none;
+    margin-inline: 22px;
+    text-align:center;
+    transition: color .5s,text-decoration .5s;
+    cursor: pointer;
+}
+.item ul li a:hover{
+    color: rgb(247, 93, 119);
+    text-decoration: underline;
+}
+.item ul li button{
+    width: 80px;
+    height: 35px;
+    background-color: rgba(254, 79, 137, 0.958);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 4s, 
+    color 1s;
+    
+    
+}
+.item ul li button:hover{
+    background-color: rgb(226, 19, 54);
+    color: rgb(15, 11, 11);
+
+}
+.item ul li{
+    list-style: none;
+}
+.main-image img{
+    width: 100%;
+}
+.pink img{
+    width: 100%;
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+
+
+}
+.card{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.card img{
+    width: 100%;
+    margin-inline: 22px;
+
+    
+
+}
+.brand h2{
+    text-align: center;
+    padding: 22px;
+
+}
+.top-brand{
+    display: flex;
+
+}
+.top-brand img{
+    margin-inline: 22px;
+    width: 100%;
+
+
+}
+.only-nykaa h2{
+    text-align: center;
+    padding: 22px;
+
+}
+.only-nykaa .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width: 100%;
+    margin-inline: 42px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 22px;
+
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+
+
+
+}
+.special h2{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+
+}
+.curation img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(223, 220, 220)
+
+}
+.footer ul li{
+
+    flex-direction: column;
+    list-style: none;
+    margin-top: 40px;
+
+}
+
+.footer ul li a{
+    font-weight: 600;
+    font-size: 13px;
+
+    
+
+
+}
+.footer ul li h2{
+
+    font-size: 18px;
+}
